@@ -4,6 +4,8 @@ async_fifo.v -> Design File
 
 lcfifo_tb.v -> Testbench File
 
+Compiler used -> Icarus Verilog
+
 This is a Verilog RTL of a buffer modeled as a FSM which can detect backpressure.
 
 The buffer operates in FIFO style. It is 8-bit wide with a depth of 8 cells.
