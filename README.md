@@ -37,5 +37,5 @@ Variable declarations:
  
  addr : Address pointer 
  
- spi_states : tate variable
+ spi_state : tate variable
  
