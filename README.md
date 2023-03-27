@@ -17,6 +17,7 @@ THe FSM has two states
  2. ACTIVE state: Data in/out operations happens in this state.
 
 Port names and meaning:
+
  sys_clk : System Clock
  
  spi_clk : SPI Clock
