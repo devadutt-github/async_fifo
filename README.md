@@ -30,7 +30,7 @@ Port names and meaning:
  
  rx_data: Line to unload data from buffer
  
- fifo_f: Buffer full signal (active high)
+ fifo_f: Buffer full signal (active high) -> **BACK PRESSURE INDICATOR**_
  
  fifo_e :Buffer empty signal (active high)
 
