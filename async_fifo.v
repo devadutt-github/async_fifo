@@ -103,7 +103,7 @@ module async_fifo(
       if(addr==7)begin
        $display("BUFFER FULL!");
        fifo_f <= 1'b1;
-        $display(spi_state);
+       // $display(spi_state);
      end
      if(addr < 7)begin
           addr = addr + 1;
