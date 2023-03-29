@@ -60,8 +60,8 @@ module async_fifo(
               HALT:begin
                 $display("e: %d, f: %d",fifo_e, fifo_f);
                 $display("HALT state");
-                $display(tx_ready);
-                $display(!fifo_f && tx_ready || !fifo_e && rx_ready);
+               // $display(tx_ready);
+               // $display(!fifo_f && tx_ready || !fifo_e && rx_ready);
                 //$display("in nclk idle %d",tx_data); !fifo_f && tx_ready || !fifo_e && rx_ready
                   if(!fifo_f && tx_ready || !fifo_e && rx_ready)begin
                       spi_state = ACTIVE;
